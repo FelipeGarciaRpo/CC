@@ -1,0 +1,60 @@
+"filename", "language", "JSON with Comments", "JSON", "TypeScript", "Dotenv", "Prisma", "TypeScript JSX", "comment", "blank", "total"
+"d:\PortafolioAI\CC\.env.example", "Dotenv", 0, 0, 0, 2, 0, 0, 0, 0, 2
+"d:\PortafolioAI\CC\bun.lock", "JSON with Comments", 285, 0, 0, 0, 0, 0, 0, 216, 501
+"d:\PortafolioAI\CC\package.json", "JSON", 0, 15, 0, 0, 0, 0, 0, 0, 15
+"d:\PortafolioAI\CC\packages\cli\package.json", "JSON", 0, 27, 0, 0, 0, 0, 0, 0, 27
+"d:\PortafolioAI\CC\packages\cli\src\components\border.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 17, 3, 1, 21
+"d:\PortafolioAI\CC\packages\cli\src\components\command-menu\commands.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 93, 1, 4, 98
+"d:\PortafolioAI\CC\packages\cli\src\components\command-menu\filter-commands.ts", "TypeScript", 0, 0, 7, 0, 0, 0, 0, 1, 8
+"d:\PortafolioAI\CC\packages\cli\src\components\command-menu\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 64, 3, 7, 74
+"d:\PortafolioAI\CC\packages\cli\src\components\command-menu\types.ts", "TypeScript", 0, 0, 13, 0, 0, 0, 0, 2, 15
+"d:\PortafolioAI\CC\packages\cli\src\components\command-menu\use-command-menu.ts", "TypeScript", 0, 0, 96, 0, 0, 0, 5, 14, 115
+"d:\PortafolioAI\CC\packages\cli\src\components\dialog-search-list.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 116, 0, 12, 128
+"d:\PortafolioAI\CC\packages\cli\src\components\dialogs\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 1, 0, 0, 1
+"d:\PortafolioAI\CC\packages\cli\src\components\dialogs\theme-dialog.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 52, 1, 5, 58
+"d:\PortafolioAI\CC\packages\cli\src\components\header.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 20, 0, 2, 22
+"d:\PortafolioAI\CC\packages\cli\src\components\input.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 160, 2, 23, 185
+"d:\PortafolioAI\CC\packages\cli\src\components\message\bot-message.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 23, 0, 3, 26
+"d:\PortafolioAI\CC\packages\cli\src\components\message\error-message.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 27, 0, 4, 31
+"d:\PortafolioAI\CC\packages\cli\src\components\message\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 3, 0, 0, 3
+"d:\PortafolioAI\CC\packages\cli\src\components\message\user-message.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 26, 0, 4, 30
+"d:\PortafolioAI\CC\packages\cli\src\components\session-shell.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 52, 0, 5, 57
+"d:\PortafolioAI\CC\packages\cli\src\components\spinner.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 6, 0, 2, 8
+"d:\PortafolioAI\CC\packages\cli\src\components\status-bar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 14, 0, 1, 15
+"d:\PortafolioAI\CC\packages\cli\src\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 26, 0, 4, 30
+"d:\PortafolioAI\CC\packages\cli\src\layouts\root-layout.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 21, 0, 1, 22
+"d:\PortafolioAI\CC\packages\cli\src\layouts\themed-root.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 18, 0, 3, 21
+"d:\PortafolioAI\CC\packages\cli\src\lib\api-client.ts", "TypeScript", 0, 0, 5, 0, 0, 0, 0, 1, 6
+"d:\PortafolioAI\CC\packages\cli\src\lib\http-errors.ts", "TypeScript", 0, 0, 15, 0, 0, 0, 1, 2, 18
+"d:\PortafolioAI\CC\packages\cli\src\providers\dialog\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 107, 0, 16, 123
+"d:\PortafolioAI\CC\packages\cli\src\providers\dialog\types.ts", "TypeScript", 0, 0, 5, 0, 0, 0, 0, 1, 6
+"d:\PortafolioAI\CC\packages\cli\src\providers\keyboard-layer\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 71, 0, 17, 88
+"d:\PortafolioAI\CC\packages\cli\src\providers\theme\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 63, 1, 11, 75
+"d:\PortafolioAI\CC\packages\cli\src\providers\toast\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 100, 0, 19, 119
+"d:\PortafolioAI\CC\packages\cli\src\providers\toast\types.ts", "TypeScript", 0, 0, 7, 0, 0, 0, 0, 2, 9
+"d:\PortafolioAI\CC\packages\cli\src\screens\home.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 29, 0, 3, 32
+"d:\PortafolioAI\CC\packages\cli\src\screens\new-session.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 71, 2, 11, 84
+"d:\PortafolioAI\CC\packages\cli\src\screens\session.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 75, 0, 21, 96
+"d:\PortafolioAI\CC\packages\cli\src\theme.ts", "TypeScript", 0, 0, 582, 0, 0, 0, 0, 3, 585
+"d:\PortafolioAI\CC\packages\cli\tsconfig.json", "JSON with Comments", 7, 0, 0, 0, 0, 0, 0, 0, 7
+"d:\PortafolioAI\CC\packages\database\package.json", "JSON", 0, 21, 0, 0, 0, 0, 0, 0, 21
+"d:\PortafolioAI\CC\packages\database\prisma7.config.ts", "TypeScript", 0, 0, 15, 0, 0, 0, 1, 3, 19
+"d:\PortafolioAI\CC\packages\database\prisma\schema.prisma", "Prisma", 0, 0, 0, 0, 44, 0, 3, 8, 55
+"d:\PortafolioAI\CC\packages\database\skills-lock.json", "JSON", 0, 59, 0, 0, 0, 0, 0, 1, 60
+"d:\PortafolioAI\CC\packages\database\src\client.ts", "TypeScript", 0, 0, 9, 0, 0, 0, 0, 4, 13
+"d:\PortafolioAI\CC\packages\database\src\enums.ts", "TypeScript", 0, 0, 1, 0, 0, 0, 0, 2, 3
+"d:\PortafolioAI\CC\packages\database\src\index.ts", "TypeScript", 0, 0, 2, 0, 0, 0, 0, 2, 4
+"d:\PortafolioAI\CC\packages\database\tsconfig.json", "JSON with Comments", 3, 0, 0, 0, 0, 0, 0, 0, 3
+"d:\PortafolioAI\CC\packages\server\package.json", "JSON", 0, 22, 0, 0, 0, 0, 0, 0, 22
+"d:\PortafolioAI\CC\packages\server\src\index.ts", "TypeScript", 0, 0, 15, 0, 0, 0, 0, 6, 21
+"d:\PortafolioAI\CC\packages\server\src\lib\models.ts", "TypeScript", 0, 0, 54, 0, 0, 0, 0, 12, 66
+"d:\PortafolioAI\CC\packages\server\src\routes\chat.ts", "TypeScript", 0, 0, 45, 0, 0, 0, 0, 8, 53
+"d:\PortafolioAI\CC\packages\server\src\routes\sessions.ts", "TypeScript", 0, 0, 70, 0, 0, 0, 15, 16, 101
+"d:\PortafolioAI\CC\packages\server\tsconfig.json", "JSON with Comments", 3, 0, 0, 0, 0, 0, 0, 0, 3
+"d:\PortafolioAI\CC\packages\shared\package.json", "JSON", 0, 11, 0, 0, 0, 0, 0, 0, 11
+"d:\PortafolioAI\CC\packages\shared\src\index.ts", "TypeScript", 0, 0, 17, 0, 0, 0, 0, 1, 18
+"d:\PortafolioAI\CC\packages\shared\src\models.ts", "TypeScript", 0, 0, 66, 0, 0, 0, 0, 8, 74
+"d:\PortafolioAI\CC\packages\shared\src\schemas.ts", "TypeScript", 0, 0, 52, 0, 0, 0, 0, 6, 58
+"d:\PortafolioAI\CC\packages\shared\tsconfig.json", "JSON with Comments", 3, 0, 0, 0, 0, 0, 0, 0, 3
+"d:\PortafolioAI\CC\tsconfig.base.json", "JSON", 0, 21, 0, 0, 0, 0, 5, 4, 30
+"Total", "-", 301, 176, 1076, 2, 44, 1255, 43, 502, 3399
