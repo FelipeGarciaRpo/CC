@@ -1,10 +1,16 @@
+import type { SupportedChatModel, SupportedChatModelId } from "@numencode/shared";
 import type { DialogContextValue } from "../../providers/dialog";
 import type { ToastContextValue } from "../../providers/toast";
+import type { Mode } from "@numencode/database/enums";
 
 export type CommandContext = {
   exit: () => void;
-  toast: ToastContextValue
-  dialog: DialogContextValue
+  toast: ToastContextValue;
+  dialog: DialogContextValue;
+  navigate : (path: string) => void;
+  mode: Mode;
+  setMode: (mode: Mode) => void;
+  setModel: (model: SupportedChatModelId) => void;
 };
 
 export type Command = {

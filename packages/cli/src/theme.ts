@@ -23,7 +23,7 @@ export const THEMES: Theme[] = [
     name: "Nightfox",
     colors: {
       primary: "#56D6C2",
-      planMode: "#CF8EF4",
+      planMode: "#4E4E66",
       selection: "#89B4FA",
       thinking: "#CF8EF4",
       success: "#82E0AA",
@@ -40,7 +40,7 @@ export const THEMES: Theme[] = [
   name: "Ember",
   colors: {
     primary: "#FF7A45",
-    planMode: "#FF6AC1",
+    planMode: "#564E54",
     selection: "#FFB454",
     thinking: "#FF6AC1",
     success: "#4ADE80",
@@ -57,7 +57,7 @@ export const THEMES: Theme[] = [
     name: "Catppuccin Mocha",
     colors: {
       primary: "#E0AF68",
-      planMode: "#9D7CD8",
+      planMode: "#585B70",
       selection: "#B4A4E8",
       thinking: "#9D7CD8",
       success: "#73DACA",
@@ -74,7 +74,7 @@ export const THEMES: Theme[] = [
     name: "Dracula",
     colors: {
       primary: "#BD93F9",
-      planMode: "#FF79C6",
+      planMode: "#44475A",
       selection: "#6272A4",
       thinking: "#FF79C6",
       success: "#50FA7B",
@@ -91,7 +91,7 @@ export const THEMES: Theme[] = [
     name: "Monokai Pro",
     colors: {
       primary: "#FFD866",
-      planMode: "#AB9DF2",
+      planMode: "#727072",
       selection: "#AB9DF2",
       thinking: "#AB9DF2",
       success: "#A9DC76",
@@ -108,7 +108,7 @@ export const THEMES: Theme[] = [
     name: "Tokyo Night",
     colors: {
       primary: "#7AA2F7",
-      planMode: "#BB9AF7",
+      planMode: "#565F89",
       selection: "#7AA2F7",
       thinking: "#BB9AF7",
       success: "#9ECE6A",
@@ -125,7 +125,7 @@ export const THEMES: Theme[] = [
     name: "Nord",
     colors: {
       primary: "#EBCB8B",
-      planMode: "#B48EAD",
+      planMode: "#616E88",
       selection: "#81A1C1",
       thinking: "#B48EAD",
       success: "#A3BE8C",
@@ -142,7 +142,7 @@ export const THEMES: Theme[] = [
     name: "Synthwave",
     colors: {
       primary: "#F472B6",
-      planMode: "#A855F7",
+      planMode: "#525252",
       selection: "#E879F9",
       thinking: "#A855F7",
       success: "#4ADE80",
@@ -159,7 +159,7 @@ export const THEMES: Theme[] = [
     name: "Midnight Sky",
     colors: {
       primary: "#6AAEF5",
-      planMode: "#B07AE8",
+      planMode: "#607080",
       selection: "#8CC4F0",
       thinking: "#B07AE8",
       success: "#58CEA0",
@@ -176,7 +176,7 @@ export const THEMES: Theme[] = [
     name: "Neon Nights",
     colors: {
       primary: "#E86ACA",
-      planMode: "#5ED4E8",
+      planMode: "#745E90",
       selection: "#D48EE0",
       thinking: "#5ED4E8",
       success: "#4ED89C",
@@ -193,7 +193,7 @@ export const THEMES: Theme[] = [
     name: "Hacker Terminal",
     colors: {
       primary: "#00E5A0",
-      planMode: "#D946EF",
+      planMode: "#454545",
       selection: "#2DD4BF",
       thinking: "#D946EF",
       success: "#4ADE80",
@@ -210,7 +210,7 @@ export const THEMES: Theme[] = [
     name: "One Dark",
     colors: {
       primary: "#CBAACB",
-      planMode: "#55B6C2",
+      planMode: "#5C6370",
       selection: "#98C379",
       thinking: "#55B6C2",
       success: "#98C379",
@@ -227,7 +227,7 @@ export const THEMES: Theme[] = [
     name: "Xcode Midnight",
     colors: {
       primary: "#FF7AB2",
-      planMode: "#6BDFFF",
+      planMode: "#57575F",
       selection: "#ACF2E4",
       thinking: "#6BDFFF",
       success: "#83C9BC",
@@ -244,7 +244,7 @@ export const THEMES: Theme[] = [
     name: "Catppuccin Frappe",
     colors: {
       primary: "#8CAAEE",
-      planMode: "#CA9EE6",
+      planMode: "#626880",
       selection: "#A6D189",
       thinking: "#CA9EE6",
       success: "#A6D189",
@@ -261,7 +261,7 @@ export const THEMES: Theme[] = [
     name: "Vercel Dark",
     colors: {
       primary: "#8B5CF6",
-      planMode: "#EC4899",
+      planMode: "#374151",
       selection: "#6366F1",
       thinking: "#EC4899",
       success: "#10B981",
@@ -278,7 +278,7 @@ export const THEMES: Theme[] = [
     name: "Material Ocean",
     colors: {
       primary: "#82AAFF",
-      planMode: "#C792EA",
+      planMode: "#4B5178",
       selection: "#717CB4",
       thinking: "#C792EA",
       success: "#C3E88D",
@@ -295,7 +295,7 @@ export const THEMES: Theme[] = [
     name: "Dusk",
     colors: {
       primary: "#C9A0DC",
-      planMode: "#F2B866",
+      planMode: "#7E6E94",
       selection: "#E8889A",
       thinking: "#F2B866",
       success: "#7ED4A6",
@@ -312,7 +312,7 @@ export const THEMES: Theme[] = [
     name: "Ocean",
     colors: {
       primary: "#3B9ECF",
-      planMode: "#E0A846",
+      planMode: "#5E7888",
       selection: "#6CC9A1",
       thinking: "#E0A846",
       success: "#A8D45F",
@@ -329,7 +329,7 @@ export const THEMES: Theme[] = [
     name: "Soft Midnight",
     colors: {
       primary: "#60A5FA",
-      planMode: "#F9A8D4",
+      planMode: "#475569",
       selection: "#93C5FD",
       thinking: "#F9A8D4",
       success: "#6EE7B7",
@@ -346,7 +346,7 @@ export const THEMES: Theme[] = [
     name: "Minimal Dark",
     colors: {
       primary: "#A78BFA",
-      planMode: "#38BDF8",
+      planMode: "#52525B",
       selection: "#818CF8",
       thinking: "#38BDF8",
       success: "#34D399",
@@ -363,7 +363,7 @@ export const THEMES: Theme[] = [
     name: "Solarized Dark",
     colors: {
       primary: "#268BD2",
-      planMode: "#6C71C4",
+      planMode: "#657B83",
       selection: "#6BC0CC",
       thinking: "#6C71C4",
       success: "#859900",
@@ -380,7 +380,7 @@ export const THEMES: Theme[] = [
     name: "Gruvbox Dark",
     colors: {
       primary: "#FABD2F",
-      planMode: "#D3869B",
+      planMode: "#665C54",
       selection: "#FABD2F",
       thinking: "#D3869B",
       success: "#B8BB26",
@@ -397,7 +397,7 @@ export const THEMES: Theme[] = [
     name: "Rosé Pine",
     colors: {
       primary: "#EBBCBA",
-      planMode: "#C4A7E7",
+      planMode: "#524F67",
       selection: "#C4A7E7",
       thinking: "#C4A7E7",
       success: "#31748F",
@@ -414,7 +414,7 @@ export const THEMES: Theme[] = [
     name: "Rosé Pine Moon",
     colors: {
       primary: "#EA9A97",
-      planMode: "#C4A7E7",
+      planMode: "#56526E",
       selection: "#EA9A97",
       thinking: "#C4A7E7",
       success: "#3E8FB0",
@@ -431,7 +431,7 @@ export const THEMES: Theme[] = [
     name: "Kanagawa",
     colors: {
       primary: "#DCD7BA",
-      planMode: "#957FB8",
+      planMode: "#727169",
       selection: "#7E9CD8",
       thinking: "#957FB8",
       success: "#76946A",
@@ -448,7 +448,7 @@ export const THEMES: Theme[] = [
     name: "Everforest Dark",
     colors: {
       primary: "#A7C080",
-      planMode: "#D699B6",
+      planMode: "#859289",
       selection: "#A7C080",
       thinking: "#D699B6",
       success: "#83C092",
@@ -465,7 +465,7 @@ export const THEMES: Theme[] = [
     name: "Ayu Dark",
     colors: {
       primary: "#E6B450",
-      planMode: "#D2A6FF",
+      planMode: "#475266",
       selection: "#73B8FF",
       thinking: "#D2A6FF",
       success: "#7FD962",
@@ -482,7 +482,7 @@ export const THEMES: Theme[] = [
     name: "GitHub Dark",
     colors: {
       primary: "#79C0FF",
-      planMode: "#D2A8FF",
+      planMode: "#484F58",
       selection: "#79C0FF",
       thinking: "#D2A8FF",
       success: "#56D364",
@@ -499,7 +499,7 @@ export const THEMES: Theme[] = [
     name: "Palenight",
     colors: {
       primary: "#82AAFF",
-      planMode: "#C792EA",
+      planMode: "#676E95",
       selection: "#82AAFF",
       thinking: "#C792EA",
       success: "#C3E88D",
@@ -516,7 +516,7 @@ export const THEMES: Theme[] = [
     name: "Vesper",
     colors: {
       primary: "#FFC799",
-      planMode: "#A78BFA",
+      planMode: "#505050",
       selection: "#FFC799",
       thinking: "#A78BFA",
       success: "#6EE7B7",
@@ -533,7 +533,7 @@ export const THEMES: Theme[] = [
     name: "Poimandres",
     colors: {
       primary: "#ADD7FF",
-      planMode: "#A6ACCD",
+      planMode: "#506477",
       selection: "#ADD7FF",
       thinking: "#A6ACCD",
       success: "#5DE4C7",
@@ -550,7 +550,7 @@ export const THEMES: Theme[] = [
     name: "Moonlight",
     colors: {
       primary: "#82AAFF",
-      planMode: "#C099FF",
+      planMode: "#5B5E7A",
       selection: "#C099FF",
       thinking: "#C099FF",
       success: "#C3E88D",
@@ -567,7 +567,7 @@ export const THEMES: Theme[] = [
     name: "Vitesse Dark",
     colors: {
       primary: "#4FC1FF",
-      planMode: "#C186E0",
+      planMode: "#555555",
       selection: "#4FC1FF",
       thinking: "#C186E0",
       success: "#80C97F",
