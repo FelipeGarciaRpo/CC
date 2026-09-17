@@ -86,6 +86,7 @@ function Toast({ currentToast }: ToastProps) {
     success: colors.success,
     error: colors.error,
     info: colors.info,
+    primary: colors.primary,
   };
 
   const borderColor = currentToast.variant

@@ -7,6 +7,8 @@ import {
   ModelsDialogContent
 } from "../dialogs";
 import type { Command } from "./types";
+import { performLogin } from "../../lib/oauth";
+import { clearAuth } from "../../lib/auth";
 
 export const COMMANDS: Command[] = [
   {
@@ -64,12 +66,23 @@ export const COMMANDS: Command[] = [
      })
     },
   },
-  {
+    {
     name: "login",
     description: "Sign in with your browser",
     value: "/login",
-    action: (ctx) => {
-      ctx.toast.show({ message: "Opening browser to sign in..." });
+    action: async (ctx) => {
+      ctx.toast.show({ variant: "primary", message: "Opening browser to sign in..." });
+
+      try {
+        await performLogin();
+        ctx.toast.show({ variant: "success", message: "Signed in" });
+      } catch (error) {
+        const message = error instanceof Error 
+          ? error.message 
+          : "Sign in failed or timed out";
+
+        ctx.toast.show({ variant: "error", message });
+      }
     },
   },
   {
@@ -77,7 +90,8 @@ export const COMMANDS: Command[] = [
     description: "Sign out of your account",
     value: "/logout",
     action: (ctx) => {
-      ctx.toast.show({ variant: "success", message: "Signed out" });
+      clearAuth();
+      ctx.toast.show({ variant: "primary", message: "Signed out" });
     },
   },
   {
@@ -85,7 +99,7 @@ export const COMMANDS: Command[] = [
     description: "Buy more credits",
     value: "/upgrade",
     action: (ctx) => {
-      ctx.toast.show({ message: "Opening credits checkout..." });
+      ctx.toast.show({ variant: "primary", message: "Opening credits checkout..." });
     },
   },
   {
@@ -93,7 +107,7 @@ export const COMMANDS: Command[] = [
     description: "Open billing portal in your browser",
     value: "/usage",
     action: (ctx) => {
-      ctx.toast.show({ message: "Opening billing portal..." });
+      ctx.toast.show({ variant: "primary", message: "Opening billing portal..." });
     },
   },
   {
