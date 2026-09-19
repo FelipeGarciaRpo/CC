@@ -4,8 +4,9 @@ import { zValidator } from "@hono/zod-validator";
 import { z } from "zod";
 import { db } from "@numencode/database";
 import { Role, Mode, MessageStatus } from "@numencode/database/enums";
-import { findSupportedChatModel } from "@numencode/shared";
-import type { AuthenticatedEnv } from "../middleare/require-auth";
+import type { AuthenticatedEnv } from "../middleware/require-auth";
+import { requireCreditsBalance } from "../middleware/require-credits-balance";
+import { isSupportedChatModel } from "../lib/models";
 
 const createSessionSchema = z.object({
   title: z.string(),
@@ -16,7 +17,7 @@ const createSessionSchema = z.object({
       content: z.string(),
       mode: z.enum(Mode),
       model: z.string()
-        .refine((id) => !!findSupportedChatModel(id), "Unsupported model"),
+        .refine(isSupportedChatModel, "Unsupported model"),
     })
     .optional(),
 });
@@ -70,7 +71,7 @@ const app = new Hono<AuthenticatedEnv>()
 
     return c.json(session);
   })
-  .post("/", createSessionValidator, async (c) => {
+  .post("/", requireCreditsBalance ,createSessionValidator, async (c) => {
     // MOCK: Uncomment to simulate slow session loading
     // await new Promise((r) => setTimeout(r, 5000))
 
