@@ -1,0 +1,8 @@
+#!/usr/bin/env bun
+// Lanzador del paquete publicado: ejecuta el bundle ya construido.
+//
+// No usa dotenv a propósito. Bun carga por su cuenta un .env del directorio
+// desde el que ejecutas el comando, así que quien quiera apuntar a otro
+// servidor solo tiene que poner API_URL ahí. Y al no importar dependencias,
+// el paquete publicado no necesita instalar nada.
+await import("../dist/index.js");
