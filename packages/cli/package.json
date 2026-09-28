@@ -1,32 +1,48 @@
 {
   "name": "@numencode/cli",
+  "version": "0.1.0",
+  "description": "Numen Code - an AI coding agent in your terminal",
   "module": "src/index.tsx",
   "type": "module",
-  "private": true,
-  "scripts": {
-    "dev": "bun run --watch src/index.tsx"
+  "bin": {
+    "numencode": "./bin/numencode"
   },
-  "devDependencies": {
-    "@numencode/server": "workspace:*",
-    "@types/bun": "latest",
-    "@types/react": "^19.2.15"
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "bun": ">=1.2.0"
+  },
+  "scripts": {
+    "dev": "bun run --watch src/index.tsx",
+    "build": "bun build src/index.tsx --outdir dist --target bun --external react --external @opentui/core --external @opentui/react --external opentui-spinner",
+    "prepublishOnly": "bun run build"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
+    "@opentui/core": "0.3.0",
+    "@opentui/react": "0.3.0",
+    "opentui-spinner": "0.0.7",
+    "react": "19.2.6"
+  },
+  "devDependencies": {
     "@ai-sdk/react": "^4.0.116",
     "@numencode/database": "workspace:*",
+    "@numencode/server": "workspace:*",
     "@numencode/shared": "workspace:*",
-    "@opentui/core": "^0.3.0",
-    "@opentui/react": "^0.3.0",
+    "@types/bun": "latest",
+    "@types/react": "^19.2.15",
     "ai": "^7.0.113",
     "date-fns": "^4.4.0",
     "hono": "^4.13.5",
     "open": "^11.0.4",
-    "opentui-spinner": "^0.0.7",
     "pretty-ms": "^9.3.1",
-    "react": "^19.2.6",
     "react-router": "^8.3.0",
     "zod": "^4.5.4"
   }
